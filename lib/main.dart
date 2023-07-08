@@ -11,7 +11,7 @@ import 'package:state_flutter_riverpod/state_provider_page.dart';
 import 'future_stream_page.dart';
 import 'stream_provider_page.dart';
 
-void main() {
+void main(List<String> args) {
   runApp(const ProviderScope(child: MyApp()));
 }
 
